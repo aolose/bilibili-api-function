@@ -1,10 +1,14 @@
-Here is a node script for proxy api.bilibili.com
+# Unlock Bilibili regional restrictions
 
-you can depoly it in HK to unlock  areblock.
+[Read before use（unblock-area-limit）](https://github.com/ipcjs/bilibili-helper/blob/user.js/packages/unblock-area-limit/README.md)
 
-#### Example:
+Here is a node script for proxy api.bilibili.com.
+If you want to remove the HK's limit you should depoly it in HK nodes.
 
-##### How to use
+
+---
+
+### How to use - An Example for Unlock HK limit on tencentCloud
 
 
 - 1.go to [https://console.cloud.tencent.com](https://console.cloud.tencent.com/)
@@ -22,6 +26,6 @@ you can depoly it in HK to unlock  areblock.
 - 7.Depoly     
 
 ![](4.png) 
-- 8.Fill your app address width /playurl  e.g `https://service-XXXXXXX.hk.apigw.tencentcs.com/release/playurl`
+- 8.Fill in your app address and endwidth /playurl  e.g `https://service-XXXXXXX.hk.apigw.tencentcs.com/release/playurl`
 
 ![](5.png)     
